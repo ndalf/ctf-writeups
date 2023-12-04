@@ -1,6 +1,7 @@
 # csaw18 get it
 
 Buffer overflow challenge from csaw 18 in nightmare
+
 Main goal is to get control over the saved return address on the stack.
 
 Nothing interesting in the main function, except the fact that it uses the `gets` function that we can exploit with a buffer overflow. 
